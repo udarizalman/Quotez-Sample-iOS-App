@@ -19,17 +19,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        // Looping for di Swift
-        for quote in quotes {
-            print(quote)
-        }
-        
     }
     
     @IBAction func actionGenerateQuote(_ sender: Any) {
-        print("Ke pencet bro...")
         // acak isi arraynya
         quotes.shuffle()
         images.shuffle()
